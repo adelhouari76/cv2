@@ -77,7 +77,8 @@
       background-color: #005fa3;
     }
 
-    .linkedin-button {
+    .linkedin-button,
+    .download-button {
       display: inline-block;
       margin-top: 20px;
       background-color: #0077b5;
@@ -89,8 +90,17 @@
       font-weight: bold;
     }
 
-    .linkedin-button:hover {
+    .linkedin-button:hover,
+    .download-button:hover {
       background-color: #005582;
+    }
+
+    .download-button {
+      background-color: #28a745;
+    }
+
+    .download-button:hover {
+      background-color: #218838;
     }
   </style>
 </head>
@@ -123,6 +133,12 @@
       🔗 حساب LinkedIn
     </a>
 
+    <!-- زر تحميل السيرة الذاتية PDF -->
+    <a class="download-button" href="cv.pdf" download>
+      📄 تحميل السيرة الذاتية PDF
+    </a>
+
+    <!-- زر تغيير اللغة -->
     <button onclick="toggleLanguage()">🌐 تغيير اللغة / Switch Language</button>
   </div>
 
